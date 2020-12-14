@@ -35,16 +35,3 @@ supprimer.addEventListener("click", function () {
     articles.pop();
     liste.innerHTML = articles;
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
