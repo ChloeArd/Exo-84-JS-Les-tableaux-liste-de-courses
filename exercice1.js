@@ -11,6 +11,10 @@ let articles = [
 ];
 
 // Votre code à partir d'ici :
+let listeCourse = document.getElementById("listeCourse")
+let liste = document.createElement('li');
+liste.innerHTML = articles;
+listeCourse.appendChild(liste);
 
 
 
